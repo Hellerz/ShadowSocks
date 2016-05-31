@@ -1,0 +1,9 @@
+E:\ShadowSocks\obj\Debug\Shadowsocks.csprojResolveAssemblyReference.cache
+E:\ShadowSocks\bin\Debug\Shadowsocks.exe
+E:\ShadowSocks\bin\Debug\Shadowsocks.pdb
+E:\ShadowSocks\obj\Debug\Shadowsocks.exe
+E:\ShadowSocks\obj\Debug\Shadowsocks.pdb
+E:\ShadowSocks\bin\Debug\Shadowsocks.exe.config
+E:\ShadowSocks\bin\Debug\Jurassic.dll
+E:\ShadowSocks\bin\Debug\Newtonsoft.Json.dll
+E:\ShadowSocks\bin\Debug\FluentScheduler.dll

@@ -1,0 +1,12 @@
+var reg = /<div class='testvpnitem'>\s+<b>测试节点：(.+?)<\/b><br \/>\s+服务器IP：<span>(.+?)<\/span><br \/>\s+端口：(.+?)<br \/>\s+密码：(.+?)<br \/>\s+加密方式：<span>(.+?)<\/span>\s+<\/div>/;
+var m = input.match(reg);
+var output;
+if(m!=null){
+	output = JSON.stringify({
+		"method" : m[5],
+		"password" : m[4],
+		"remarks" : m[1],
+		"server" : m[2],
+		"server_port" : m[3]
+	});
+}

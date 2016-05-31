@@ -1,0 +1,19 @@
+{
+"configs" : [
+  {
+"method" : "aes-256-cfb",
+"password" : "911149",
+"remarks" : "美国VL-27",
+"server" : "108.61.216.67",
+"server_port" : 8865}
+
+],
+"enabled" : true,
+"global" : false,
+"index" : 0,
+"isDefault" : false,
+"localPort" : 1080,
+"pacUrl" : null,
+"shareOverLan" : true,
+"strategy" : null,
+"useOnlinePac" : false}

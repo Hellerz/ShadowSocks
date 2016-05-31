@@ -1,0 +1,19 @@
+{
+"configs" : [
+  {
+"method" : "aes-256-cfb",
+"password" : "956006",
+"remarks" : "美国SV-06",
+"server" : "45.63.83.202",
+"server_port" : 8620}
+
+],
+"enabled" : false,
+"global" : false,
+"index" : 0,
+"isDefault" : false,
+"localPort" : 1080,
+"pacUrl" : null,
+"shareOverLan" : false,
+"strategy" : null,
+"useOnlinePac" : false}

@@ -1,0 +1,6 @@
+E:\ShadowSocks\bin\Release\Shadowsocks.exe
+E:\ShadowSocks\obj\Release\Shadowsocks.exe
+E:\ShadowSocks\bin\Release\Shadowsocks.exe.config
+E:\ShadowSocks\bin\Release\FluentScheduler.dll
+E:\ShadowSocks\bin\Release\Jurassic.dll
+E:\ShadowSocks\bin\Release\Newtonsoft.Json.dll

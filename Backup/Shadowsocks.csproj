@@ -1,0 +1,131 @@
+<VisualStudioProject>
+  <CSHARP ProjectType="local" ProjectVersion="7.10.3077" SchemaVersion="2.0" ProjectGuid="46a6b0b5-98d3-4a44-8265-cf2deb880e52">
+    <Build>
+      <Settings AssemblyName="Shadowsocks" DefaultClientScript="JScript" DefaultHTMLPageLayout="Grid" DefaultTargetSchema="IE50" DelaySign="false" OutputType="WinExe">
+        <Config Name="Debug" AllowUnsafeBlocks="true" DefineConstants="DEBUG;TRACE" DebugSymbols="true" IncrementalBuild="false" NoStdLib="false" Optimize="false" OutputPath="bin\Debug\" WarningLevel="4" />
+        <Config Name="Release" AllowUnsafeBlocks="true" DefineConstants="TRACE" DebugSymbols="false" IncrementalBuild="false" NoStdLib="false" Optimize="true" OutputPath="bin\Release\" WarningLevel="4" />
+      </Settings>
+      <References>
+        <Reference Name="System.Windows.Forms" AssemblyName="System.Windows.Forms" />
+        <Reference Name="System" AssemblyName="System" />
+        <Reference Name="System.Drawing" AssemblyName="System.Drawing" />
+        <Reference Name="Microsoft.VisualBasic" AssemblyName="Microsoft.VisualBasic" />
+      </References>
+    </Build>
+    <Files>
+      <Include>
+        <File RelPath="AssemblyInfo.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Global.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ZXing\BarcodeFormat.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ZXing\LuminanceSource.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ZXing\BaseLuminanceSource.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ZXing\Binarizer.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ZXing\BinaryBitmap.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ZXing\BitmapLuminanceSource.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ZXing\Common\BitArray.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ZXing\Common\BitMatrix.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ZXing\Common\BitSource.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ZXing\Common\DecoderResult.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ZXing\Common\GridSampler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ZXing\Common\DefaultGridSampler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ZXing\Common\DetectorResult.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ZXing\Common\Detector\MathUtils.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ZXing\Common\GlobalHistogramBinarizer.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ZXing\Common\HybridBinarizer.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ZXing\Common\PerspectiveTransform.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ZXing\Common\ReedSolomon\GenericGF.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ZXing\Common\ReedSolomon\GenericGFPoly.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ZXing\Common\ReedSolomon\ReedSolomonDecoder.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ZXing\Common\ReedSolomon\ReedSolomonEncoder.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ZXing\Common\StringUtils.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ZXing\DecodeHintType.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ZXing\EncodeHintType.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ZXing\QrCode\Internal\BitMatrixParser.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ZXing\QrCode\Internal\DataBlock.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ZXing\QrCode\Internal\DataMask.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ZXing\QrCode\Internal\DecodedBitStreamParser.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ZXing\QrCode\Internal\Decoder.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ZXing\QrCode\Internal\ErrorCorrectionLevel.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ZXing\QrCode\Internal\FormatInformation.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ZXing\QrCode\Internal\Mode.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ZXing\QrCode\Internal\QRCodeDecoderMetaData.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ZXing\QrCode\Internal\Version.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ZXing\ResultPoint.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ZXing\QrCode\Internal\AlignmentPattern.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ZXing\QrCode\Internal\AlignmentPatternFinder.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ZXing\QrCode\Internal\Detector.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ZXing\QrCode\Internal\FinderPattern.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ZXing\QrCode\Internal\FinderPatternFinder.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ZXing\QrCode\Internal\FinderPatternInfo.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ZXing\QrCode\Internal\BlockPair.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ZXing\QrCode\Internal\ByteMatrix.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ZXing\QrCode\Internal\Encoder.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ZXing\QrCode\Internal\MaskUtil.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ZXing\QrCode\Internal\MatrixUtil.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ZXing\QrCode\Internal\QRCode.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SimpleJson\JsonArray.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SimpleJson\JsonObject.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SimpleJson\SimpleJson.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SimpleJson\IJsonSerializerStrategy.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SimpleJson\PocoJsonSerializerStrategy.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SimpleJson\Reflection\ReflectionUtils.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SimpleJson\Reflection\GetHandler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SimpleJson\Reflection\SetHandler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SimpleJson\Reflection\MemberMapLoader.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SimpleJson\Reflection\CacheResolver.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SimpleJson\Reflection\SafeDictionary!2.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ZXing\QrCode\QRCodeReader.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ZXing\Result.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ZXing\ResultMetadataType.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ZXing\ResultPointCallback.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="ZXing\WriterException.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Shadowsocks\Controller\Strategy\IStrategy.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Shadowsocks\Controller\Strategy\HighAvailabilityStrategy.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Shadowsocks\Controller\AutoStartup.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Shadowsocks\Controller\FileManager.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Shadowsocks\Controller\GFWListUpdater.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Shadowsocks\Controller\I18N.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Shadowsocks\Controller\Listener.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Shadowsocks\Controller\Logging.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Shadowsocks\Controller\StreamWriterWithTimestamp.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Shadowsocks\Controller\PortForwarder.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Shadowsocks\Controller\UDPRelay.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Shadowsocks\Controller\LRUCache!2.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Shadowsocks\Controller\LRUCacheItem!2.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Shadowsocks\Controller\UpdateChecker.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Shadowsocks\Encryption\IEncryptor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Shadowsocks\Encryption\EncryptorBase.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Shadowsocks\Encryption\EncryptorFactory.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Shadowsocks\Encryption\IVEncryptor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Shadowsocks\Encryption\PolarSSL.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Shadowsocks\Encryption\PolarSSLEncryptor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Shadowsocks\Encryption\Sodium.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Shadowsocks\Encryption\SodiumEncryptor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Shadowsocks\Encryption\TableEncryptor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Shadowsocks\Controller\PACServer.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Shadowsocks\Model\Server.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Shadowsocks\Model\Configuration.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Shadowsocks\Properties\Resources.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Shadowsocks\Controller\Strategy\BalancingStrategy.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Shadowsocks\Controller\Strategy\StrategyManager.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Shadowsocks\Controller\Strategy\IStrategyCallerType.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Shadowsocks\Util\Utils.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Shadowsocks\View\ConfigForm.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Shadowsocks\Controller\TCPRelay.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Shadowsocks\Controller\Handler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Shadowsocks\Controller\PolipoRunner.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Shadowsocks\Program.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Shadowsocks\Controller\ShadowsocksController.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Shadowsocks\Controller\SystemProxy.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Shadowsocks\View\MenuViewController.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Shadowsocks\View\QRCodeForm.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Shadowsocks\View\PerPixelAlphaForm.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Shadowsocks\View\QRCodeSplashForm.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Shadowsocks\View\Win32.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Shadowsocks.View.ConfigForm.resources" BuildAction="EmbeddedResource" />
+        <File RelPath="Shadowsocks.Properties.Resources.resources" BuildAction="EmbeddedResource" />
+        <File RelPath="Shadowsocks.View.QRCodeForm.resources" BuildAction="EmbeddedResource" />
+      </Include>
+    </Files>
+  </CSHARP>
+</VisualStudioProject>
